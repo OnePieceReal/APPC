@@ -21,17 +21,28 @@
 
 ## Video Demonstration
 
-<p align="center">
-  <img src="demo/demo_1_gif.gif" width="800"/>
-  <br>
-  <em>Figure 2: Operational demonstration of the collection system</em>
-</p>
 
-<p align="center">
-  <a href="demo/demo_1.mp4"><strong>Full Demonstration Video 1</strong></a> |
-  <a href="demo/demo_2.mp4"><strong>Full Demonstration Video 2</strong></a> |
-  <a href="demo/demo_3.mp4"><strong>Full Demonstration Video 3</strong></a>
-</p>
+
+https://github.com/user-attachments/assets/a1bd56aa-6873-4dc5-8bf9-e565eb9e5ebb
+
+
+
+https://github.com/user-attachments/assets/c31f8601-b6fe-43a4-9c8a-2134f7f35e42
+
+
+
+https://github.com/user-attachments/assets/c4b83857-8fcc-47f6-a88a-32918e78e0e4
+## <div align="center">Video Demonstration</div>
+
+<div align="center">
+
+<a href="https://github.com/user-attachments/assets/a1bd56aa-6873-4dc5-8bf9-e565eb9e5ebb">Video 1</a><br><br>
+<a href="https://github.com/user-attachments/assets/c31f8601-b6fe-43a4-9c8a-2134f7f35e42">Video 2</a><br><br>
+<a href="https://github.com/user-attachments/assets/c4b83857-8fcc-47f6-a88a-32918e78e0e4">Video 3</a>
+
+</div>
+
+
 
 ## Introduction
 
