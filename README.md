@@ -22,13 +22,13 @@
 ## Video Demonstration
 
 
-<p align="center">
+
 https://github.com/user-attachments/assets/a1bd56aa-6873-4dc5-8bf9-e565eb9e5ebb
 
 https://github.com/user-attachments/assets/c31f8601-b6fe-43a4-9c8a-2134f7f35e42
 
 https://github.com/user-attachments/assets/c4b83857-8fcc-47f6-a88a-32918e78e0e4
-</p>
+
 
 
 
