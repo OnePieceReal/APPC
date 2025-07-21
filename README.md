@@ -45,13 +45,14 @@ The software architecture utilizes multithreading to parallelize critical operat
 
 Additional computer vision capabilities include real-time color space processing through OpenCV. The system converts camera frames to HSV color space for reliable detection of specific colored regions, such as blue drop-off zones. Through advanced image processing techniques including masking, contour detection, and bounding box visualization, the robot can identify and interact with designated target areas in its environment.
 
-## Performance Metrics
 
-The MobileNet SSDv2 model demonstrates the following performance characteristics:
+## **Model Evaluation Results**
 
-## Table 1: Object Detection Performance Evaluation
+The MobileNet SSDv2 model demonstrates robust performance across multiple test conditions. Below we present three comprehensive evaluations of the system's detection capabilities.
 
-<p align="center">
+## **Table 1: Object Classification Performance**
+
+*Figure 1: Comparative analysis of detection metrics across object classes*
 
 | Object         | Confidence | IoU  | True Positive | False Positive | Recall | Precision |
 |:--------------:|:----------:|:----:|:-------------:|:--------------:|:------:|:---------:|
@@ -59,7 +60,59 @@ The MobileNet SSDv2 model demonstrates the following performance characteristics
 | Bag            | 0.77       | 0.57 | 20            | 20             | 0.50   | 0.50      |
 | Shoe           | 0.74       | 0.59 | 20            | 20             | 0.50   | 0.50      |
 
+## **Table 2: Lighting Condition Analysis**
+
+*Figure 2: Detection confidence under varying illumination levels (Model: 512×512, 473 samples, 100 epochs)*
+
+<p align="center">
+
+| Parameter         | Value       |
+|:-----------------:|:-----------:|
+| Resolution        | 512×512     |
+| Data Size         | 473 samples |
+| Training Epochs   | 100         |
+| Lighting Condition| Off         |
+
 </p>
+
+<p align="center">
+
+| Distance (Meters) | Light Level (Lux) | Confidence (%) |
+|:-----------------:|:-----------------:|:--------------:|
+| 0.35              | 425               | 81.6           |
+| 0.35              | 207               | 89.0           |
+| 0.35              | 45.9              | 97.7           |
+| 0.35              | 11.5              | 98.8           |
+| 0.35              | 5                 | 96.4           |
+| 0.35              | 1.2               | 99.5           |
+
+</p>
+
+## **Table 3: Distance Performance Metrics**
+
+*Figure 3: Detection range analysis (Model: 512×512, 417 samples, 200 epochs)*
+
+<p align="center">
+
+| Parameter         | Value       |
+|:-----------------:|:-----------:|
+| Resolution        | 512×512     |
+| Data Size         | 417 samples |
+| Training Epochs   | 200         |
+| Lighting Condition| On          |
+
+</p>
+
+<p align="center">
+
+| Distance (Meters) | Confidence (%) |
+|:-----------------:|:--------------:|
+| 0                 | 92.2           |
+| 100               | 94.3           |
+| 200               | 51.2           |
+| 300               | 65.8           |
+| 400               | 61.3           |
+| 500               | 28.7           |
 
 ## Component List
 
