@@ -49,7 +49,7 @@ Additional computer vision capabilities include real-time color space processing
 
 The MobileNet SSDv2 model demonstrates the following performance characteristics:
 
-# Detection Performance Metrics
+#### Detection Performance Metrics
 
 | Parameter         | Value          |
 |-------------------|----------------|
@@ -58,7 +58,7 @@ The MobileNet SSDv2 model demonstrates the following performance characteristics
 | Training Epochs   | 200            |
 | Lighting Condition| On             |
 
-# Distance vs Confidence
+#### Distance vs Confidence
 
 | Distance (Meters) | Confidence (%) |
 |-------------------|----------------|
