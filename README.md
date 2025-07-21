@@ -49,15 +49,25 @@ Additional computer vision capabilities include real-time color space processing
 
 The MobileNet SSDv2 model demonstrates the following performance characteristics:
 
-| Metric | Value |
-|--------|-------|
-| Precision | [Insert Value] |
-| Recall | [Insert Value] |
-| F1 Score | [Insert Value] |
-| Inference Speed (FPS) | [Insert Value] |
-| mAP@0.5 | [Insert Value] |
+# Detection Performance Metrics
 
-These metrics were evaluated under [describe testing conditions] and demonstrate the model's effectiveness for the ping pong ball detection task.
+| Parameter         | Value          |
+|-------------------|----------------|
+| Resolution        | 512×512        |
+| Data Size         | 417 samples    |
+| Training Epochs   | 200            |
+| Lighting Condition| On             |
+
+# Distance vs Confidence
+
+| Distance (Meters) | Confidence (%) |
+|-------------------|----------------|
+| 0                 | 92.2           |
+| 100               | 94.3           |
+| 200               | 51.2           |
+| 300               | 65.8           |
+| 400               | 61.3           |
+| 500               | 28.7           |
 
 ## Component List
 
