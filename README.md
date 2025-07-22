@@ -52,7 +52,7 @@ The software architecture utilizes multithreading to parallelize critical operat
 Additional computer vision capabilities include real-time color space processing through OpenCV. The system converts camera frames to HSV color space for reliable detection of specific colored regions, such as blue drop-off zones. Through advanced image processing techniques including masking, contour detection, and bounding box visualization, the robot can identify and interact with designated target areas in its environment.
 
 
-## **Model Evaluation Results**
+## **Performance Metrics**
 
 The MobileNet SSDv2 model demonstrates robust performance across multiple test conditions. Below we present three comprehensive evaluations of the system's detection capabilities.
 
