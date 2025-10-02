@@ -72,15 +72,15 @@ The MobileNet SSDv2 model demonstrates robust performance across multiple test c
 |--------------|-------------------|----------------|
 | 0.35         | 425               | 83             |
 | 0.35         | 207               | 90             |
-| 0.35         | 45.9              | 95             |
-| 0.35         | 11.5              | 96             |
+| 0.35         | 45.9              | 93             |
+| 0.35         | 11.5              | 94             |
 | 0.35         | 5                 | 96             |
 | 0.35         | 1.2               | 97             |
 
 **Figure 1:** *Effect of varying light levels on detection confidence.*  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/692c7be5-7242-4935-bd19-13372b5fcdba" alt="Effect of light levels" width="755" height="465">
+  <img width="748" height="463" alt="image" src="https://github.com/user-attachments/assets/605dde88-fac9-4f1c-98d3-43549b4ba333" />
 </p>
 
 ### **Table 2: Distance vs. Detection Confidence**
