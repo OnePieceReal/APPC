@@ -56,69 +56,46 @@ Additional computer vision capabilities include real-time color space processing
 
 The MobileNet SSDv2 model demonstrates robust performance across multiple test conditions. Below we present three comprehensive evaluations of the system's detection capabilities.
 
-## **Table 1: Object Classification Performance**
+**Model Accuracy:** 96%  
 
-*Figure 1: Comparative analysis of detection metrics across object classes*
+### Model Statistics
 
-| Object         | Confidence | IoU  | True Positive | False Positive | Recall | Precision |
-|:--------------:|:----------:|:----:|:-------------:|:--------------:|:------:|:---------:|
-| Ping Pong Ball | 0.87       | 0.61 | 38            | 2              | 0.94   | 0.95      |
-| Bag            | 0.77       | 0.57 | 20            | 20             | 0.50   | 0.50      |
-| Shoe           | 0.74       | 0.59 | 20            | 20             | 0.50   | 0.50      |
+| Parameter        | Value       |
+|------------------|-------------|
+| Resolution       | 608×608     |
+| Data Size        | 550 samples |
+| Training Epochs  | 100         |
 
-## **Table 2: Lighting Condition Analysis**
+### **Table 1: Illumination vs. Detection Confidence**
 
-*Figure 2: Detection confidence under varying illumination levels (Model: 512×512, 473 samples, 100 epochs)*
+| Distance (m) | Light Level (Lux) | Confidence (%) |
+|--------------|-------------------|----------------|
+| 0.35         | 425               | 83             |
+| 0.35         | 207               | 90             |
+| 0.35         | 45.9              | 95             |
+| 0.35         | 11.5              | 96             |
+| 0.35         | 5                 | 96             |
+| 0.35         | 1.2               | 97             |
 
-<p align="center">
+**Figure 1:** *Effect of varying light levels on detection confidence.*  
 
-| Parameter         | Value       |
-|:-----------------:|:-----------:|
-| Resolution        | 512×512     |
-| Data Size         | 473 samples |
-| Training Epochs   | 100         |
-| Lighting Condition| Off         |
+<img width="755" height="465" alt="image" src="https://github.com/user-attachments/assets/692c7be5-7242-4935-bd19-13372b5fcdba" />
 
-</p>
 
-<p align="center">
+### **Table 2: Distance vs. Detection Confidence**
+| Distance (m) | Confidence (%) |
+|--------------|----------------|
+| 0            | 97             |
+| 100          | 94             |
+| 200          | 67             |
+| 300          | 63             |
+| 400          | 50             |
+| 500          | 29             |
 
-| Distance (Meters) | Light Level (Lux) | Confidence (%) |
-|:-----------------:|:-----------------:|:--------------:|
-| 0.35              | 425               | 81.6           |
-| 0.35              | 207               | 89.0           |
-| 0.35              | 45.9              | 97.7           |
-| 0.35              | 11.5              | 98.8           |
-| 0.35              | 5                 | 96.4           |
-| 0.35              | 1.2               | 99.5           |
+**Figure 2:** *Effect of target distance on detection confidence.*  
 
-</p>
+<img width="796" height="485" alt="image" src="https://github.com/user-attachments/assets/e1c6336f-45c0-404a-abb0-0419a8b04e58" />
 
-## **Table 3: Distance Performance Metrics**
-
-*Figure 3: Detection range analysis (Model: 512×512, 417 samples, 200 epochs)*
-
-<p align="center">
-
-| Parameter         | Value       |
-|:-----------------:|:-----------:|
-| Resolution        | 512×512     |
-| Data Size         | 417 samples |
-| Training Epochs   | 200         |
-| Lighting Condition| On          |
-
-</p>
-
-<p align="center">
-
-| Distance (Meters) | Confidence (%) |
-|:-----------------:|:--------------:|
-| 0                 | 92.2           |
-| 100               | 94.3           |
-| 200               | 51.2           |
-| 300               | 65.8           |
-| 400               | 61.3           |
-| 500               | 28.7           |
 
 ## Component List
 
