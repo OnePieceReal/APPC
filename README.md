@@ -54,7 +54,7 @@ Additional computer vision capabilities include real-time color space processing
 
 ## **Model Performance Metrics**
 
-The MobileNet SSDv2 model demonstrates robust performance across multiple test conditions. Below we present three comprehensive evaluations of the system's detection capabilities.
+The MobileNet SSDv2 model demonstrates robust performance across multiple test conditions. Below we present two comprehensive evaluations of the system's detection capabilities.
 
 **Model Accuracy:** 96%  
 
@@ -79,10 +79,12 @@ The MobileNet SSDv2 model demonstrates robust performance across multiple test c
 
 **Figure 1:** *Effect of varying light levels on detection confidence.*  
 
-<img width="755" height="465" alt="image" src="https://github.com/user-attachments/assets/692c7be5-7242-4935-bd19-13372b5fcdba" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/692c7be5-7242-4935-bd19-13372b5fcdba" alt="Effect of light levels" width="755" height="465">
+</p>
 
 ### **Table 2: Distance vs. Detection Confidence**
+
 | Distance (m) | Confidence (%) |
 |--------------|----------------|
 | 0            | 97             |
@@ -94,7 +96,9 @@ The MobileNet SSDv2 model demonstrates robust performance across multiple test c
 
 **Figure 2:** *Effect of target distance on detection confidence.*  
 
-<img width="796" height="485" alt="image" src="https://github.com/user-attachments/assets/e1c6336f-45c0-404a-abb0-0419a8b04e58" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e1c6336f-45c0-404a-abb0-0419a8b04e58" alt="Effect of distance" width="796" height="485">
+</p>
 
 
 ## Component List
